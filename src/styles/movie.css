@@ -1,0 +1,74 @@
+.background-div {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://ca-times.brightspotcdn.com/dims4/default/973f1a4/2147483647/strip/true/crop/2048x1365+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff2%2F74%2F96c5419f96952feedaa08bd4aa7f%2Fla-et-ct-cinemacon-2014-tickets-20140325-001");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.9;
+  overflow-y: scroll;
+}
+.blurImg {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.white-hr {
+  background-color: #fff;
+  height: 2px;
+  border: none;
+  border-top: 3px solid #fff;
+  margin: 20px 0;
+}
+
+.bg-div {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.custom-font-size {
+  font-size: 20px;
+}
+.custom-text-color {
+  color: #fff;
+}
+.list-page-container {
+  background-image: url("https://ca-times.brightspotcdn.com/dims4/default/973f1a4/2147483647/strip/true/crop/2048x1365+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff2%2F74%2F96c5419f96952feedaa08bd4aa7f%2Fla-et-ct-cinemacon-2014-tickets-20140325-001");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.list-item {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+  color: white; /* White text color */
+}
+.badge {
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent badge background */
+  color: white; /* White font color for badges */
+}
+
+.transparent-card {
+  background-color: rgba(0, 0, 0, 0.7); /* Transparent card background */
+  border: 2px solid white; /* Add white border to the card */
+  color: white; /* White font color */
+}
